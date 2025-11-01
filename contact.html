@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact - Feika</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Feika</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="tentang.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section
+      class="home"
+      id="contact"
+      style="flex-direction: column; text-align: center"
+    >
+      <div class="home-content">
+        <h1>Kontak <span>Saya</span></h1>
+        <form
+          action="#"
+          method="post"
+          style="
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
+            font-size: 1.6rem;
+          "
+        >
+          <label for="nama">Nama</label><br />
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            required
+            style="
+              width: 100%;
+              padding: 1rem;
+              margin: 0.8rem 0 1.5rem;
+              border-radius: 0.5rem;
+              border: 2px solid #1cbfdb;
+              background: whitesmoke;
+              color: black;
+            "
+          /><br />
+
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            style="
+              width: 100%;
+              padding: 1rem;
+              margin: 0.8rem 0 1.5rem;
+              border-radius: 0.5rem;
+              border: 2px solid #1cbfdb;
+              background: whitesmoke;
+              color: black;
+            "
+          /><br />
+
+          <label for="pesan">Pesan</label><br />
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="5"
+            required
+            style="
+              width: 100%;
+              padding: 1rem;
+              margin: 0.8rem 0 2rem;
+              border-radius: 0.5rem;
+              border: 2px solid #1cbfdb;
+              background: whitesmoke;
+              color: black;
+            "
+          ></textarea>
+
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+
+        <div style="margin-top: 4rem; font-size: 1.6rem; color: #ccc">
+          <p>
+            <i class="fa-solid fa-location-dot" style="color: #1cbfdb"></i>
+            Alamat: Desa Bunbarat. Kec. Rubaru
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope" style="color: #1cbfdb"></i> Email:
+            faiqulkamil@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone" style="color: #1cbfdb"></i> No. HP: +62
+            831-1580-3048
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
